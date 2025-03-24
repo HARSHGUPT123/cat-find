@@ -1,0 +1,131 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.main-page {
+  max-width:1200px;
+  margin:auto;
+  text-align:center;
+}
+.main-page .items-center{
+margin-bottom:20px;
+}
+.main-page .items-center select{
+height:40px;
+margin-right:10px;
+}
+.main-page  .items-center .text-white{
+height:40px; 
+}
+
+.main-page .cat-grid-layout{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+.main-page .shadow img{
+max-width:300px;
+width:100%;
+max-height:200px;
+height:100%;
+}
+
+.main-page .mt-4.text-center button{
+margin-top:20px;
+margin-bottom:40px;
+height:40px;
+width:150px;
+}
+
+@media(max-width:1024px){
+  .main-page .cat-grid-layout{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:20px;
+}
+}
+
+@media(max-width:767px){
+  .main-page .cat-grid-layout{
+      display:grid;
+      grid-template-columns:repeat(1,1fr);
+      gap:20px;
+}
+}
