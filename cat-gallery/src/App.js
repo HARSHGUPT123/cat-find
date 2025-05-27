@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import './App.css';
 
-const API_KEY = "YOUR_API_KEY"; // Replace with your actual API key
+const API_KEY = "live_WjfrfYo3XHuG2sQp3KQc3dB8RRvIQ5ru1ZfvJptoVn8FdwIbTOcOBCXv8NACSTFD"; // Replace with your actual API key
 const BASE_URL = "https://thecatapi.com/";
 
 const App = () => {
