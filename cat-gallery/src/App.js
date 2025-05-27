@@ -3,7 +3,7 @@ import axios from "axios";
 import './App.css';
 
 const API_KEY = "YOUR_API_KEY"; // Replace with your actual API key
-const BASE_URL = "https://api.thecatapi.com/v1";
+const BASE_URL = "https://thecatapi.com/";
 
 const App = () => {
   const [images, setImages] = useState([]);
